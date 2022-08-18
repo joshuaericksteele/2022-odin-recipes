@@ -1,3 +1,9 @@
+/* * {
+    border: 2px solid red;
+} */
+
+
+
 .mainpage {
     background-image: url(https://i.redd.it/6t7wydvgsl091.png);
     background-repeat: no-repeat;
@@ -6,6 +12,8 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+    background-color: lightgray;
     
 }
 
@@ -31,12 +39,19 @@ a {
     text-shadow: 2px 2px black;
     
 }
-/*
-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
+
+.container {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
 }
-*/
+
+.ingredients {
+    border: 1px solid lightslategray;
+    padding: 1rem;
+}
+
+.method {
+    border: 1px solid lightslategray;
+    padding: 1rem;
+}
